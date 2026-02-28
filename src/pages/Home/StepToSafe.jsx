@@ -1,4 +1,7 @@
 import React from "react";
+import { IoHome } from "react-icons/io5";
+import { GrPlan } from "react-icons/gr";
+import { LiaUserFriendsSolid } from "react-icons/lia";
 
 function StepToSafe() {
   return (
@@ -12,21 +15,24 @@ function StepToSafe() {
       </p>
       <div className="grid md:grid-cols-3 gap-6 mt-10">
         <div className="bg-white p-6 rounded-2xl shadow">
-          <h3 className="font-semibold text-lg">Tìm nơi an toàn</h3>
+          <IoHome className="text-6xl text-blue-700 bg-blue-200 rounded-3xl p-2 " />
+          <h3 className="font-semibold text-lg pt-5">Tìm nơi an toàn</h3>
           <p className="text-sm text-gray-600 mt-2">
             Xác định nhà bạn bè, thư viện gần nhất hoặc nơi trú ẩn an toàn mà
             bạn có thể đến ngay khi khẩn cấp.
           </p>
         </div>
         <div className="bg-white p-6 rounded-2xl shadow">
-          <h3 className="font-semibold text-lg">Lập kế hoạch an toàn</h3>
+          <GrPlan className="text-6xl text-blue-700 bg-blue-200 rounded-3xl p-2 " />
+          <h3 className="font-semibold text-lg pt-5">Lập kế hoạch an toàn</h3>
           <p className="text-sm text-gray-600 mt-2">
             Chuẩn bị giấy tờ quan trọng và một “túi khẩn cấp” gồm thuốc và chìa
             khóa, để ở nơi kín đáo nhưng dễ lấy.
           </p>
         </div>
         <div className="bg-white p-6 rounded-2xl shadow">
-          <h3 className="font-semibold text-lg">Tìm kiếm sự hỗ trợ</h3>
+          <LiaUserFriendsSolid className="text-6xl text-blue-700 bg-blue-200 rounded-3xl p-2 " />
+          <h3 className="font-semibold text-lg pt-5">Tìm kiếm sự hỗ trợ</h3>
           <p className="text-sm text-gray-600 mt-2">
             Kết nối với đội ngũ tư vấn được đào tạo của chúng tôi để được hỗ trợ
             về pháp lý, tài chính và tinh thần.

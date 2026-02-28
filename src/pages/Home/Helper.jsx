@@ -1,10 +1,12 @@
 import React from "react";
+import { FiPhoneCall } from "react-icons/fi";
 
 function Helper() {
   return (
     <section className="px-8 mt-10 ">
-      <div className="bg-blue-900 text-white p-6 rounded-2xl flex flex-col md:flex-row justify-between items-center">
+      <div className="bg-black text-white p-6 rounded-2xl flex flex-col md:flex-row justify-between items-center">
         <div>
+          <FiPhoneCall className="text-6xl text-blue-700 bg-blue-200 rounded-4xl p-2" />
           <h3 className="font-semibold text-lg">
             Bạn cần giúp đỡ ngay bây giờ ?
           </h3>

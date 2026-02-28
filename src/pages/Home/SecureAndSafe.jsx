@@ -1,4 +1,6 @@
 import React from "react";
+import { IoChatboxSharp } from "react-icons/io5";
+import { CgAsterisk } from "react-icons/cg";
 
 function SecureAndSafe() {
   return (
@@ -19,11 +21,13 @@ function SecureAndSafe() {
         </p>
 
         <div className="flex gap-4 mt-8">
-          <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+          <button className="flex items-center justify-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+            <CgAsterisk className="text-2xl text-white" />
             Nhận hỗ trợ ngay
           </button>
 
-          <button className="border px-6 py-3 rounded-lg hover:bg-gray-100">
+          <button className=" flex items-center justify-center gap-2 border px-6 py-3 rounded-lg hover:bg-gray-100">
+            <IoChatboxSharp />
             Trò chuyện ẩn danh
           </button>
         </div>

@@ -1,4 +1,8 @@
 import React from "react";
+import { BsClockHistory } from "react-icons/bs";
+import { MdVpnKey } from "react-icons/md";
+import { MdLocationOff } from "react-icons/md";
+import { MdOutlineAlternateEmail } from "react-icons/md";
 
 function DigitalSafety() {
   return (
@@ -21,6 +25,7 @@ function DigitalSafety() {
         </div>
         <div className="grid grid-cols-2 gap-6">
           <div className="bg-white p-6 rounded-2xl shadow-md">
+            <BsClockHistory className="text-2xl text-blue-700 mb-5 " />
             <h3 className="font-semibold text-gray-800">Xóa lịch sử</h3>
             <p className="text-sm text-gray-600 mt-3 leading-relaxed">
               Cách xóa các trang web đã truy cập khỏi lịch sử trình duyệt của
@@ -29,6 +34,7 @@ function DigitalSafety() {
           </div>
 
           <div className="bg-white p-6 rounded-2xl shadow-md">
+            <MdVpnKey className="text-2xl text-blue-700 mb-5" />
             <h3 className="font-semibold text-gray-800">Chế độ riêng tư</h3>
             <p className="text-sm text-gray-600 mt-3 leading-relaxed">
               Truy cập web mà không lưu lại thông tin đăng nhập hay dữ liệu tạm.
@@ -36,6 +42,7 @@ function DigitalSafety() {
           </div>
 
           <div className="bg-white p-6 rounded-2xl shadow-md">
+            <MdLocationOff className="text-2xl text-blue-700 mb-5" />
             <h3 className="font-semibold text-gray-800">Quyền riêng tư GPS</h3>
             <p className="text-sm text-gray-600 mt-3 leading-relaxed">
               Tắt theo dõi vị trí trên thiết bị di động của bạn.
@@ -43,6 +50,7 @@ function DigitalSafety() {
           </div>
 
           <div className="bg-white p-6 rounded-2xl shadow-md">
+            <MdOutlineAlternateEmail className="text-2xl text-blue-700 mb-5" />
             <h3 className="font-semibold text-gray-800">Email an toàn</h3>
             <p className="text-sm text-gray-600 mt-3 leading-relaxed">
               Thiết lập kênh liên lạc bảo mật và riêng tư.

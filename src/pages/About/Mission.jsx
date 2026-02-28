@@ -5,7 +5,7 @@ function Mission() {
     <section className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
       <div className="rounded-2xl overflow-hidden shadow-md">
         <img
-          src="/team.jpg"
+          src="bl1.jpg"
           alt="Our Team"
           className="w-full h-full object-cover"
         />

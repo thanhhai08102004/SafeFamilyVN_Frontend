@@ -1,4 +1,6 @@
 import React from "react";
+import { TbLock } from "react-icons/tb";
+import { BsPatchCheck } from "react-icons/bs";
 
 function Footer() {
   return (
@@ -50,10 +52,12 @@ function Footer() {
           © 2026 Mạng Lưới Không Gian An Toàn. Tất cả quyền được bảo lưu.
         </div>
         <div className="flex justify-center items-center ">
-          <div className=" mx-8 flex justify-end  border-blue-800 text-center text-sm text-gray-400 py-4">
+          <div className=" gap-1 mx-8 flex justify-center items-center  border-blue-800 text-center text-sm text-gray-400 py-4">
+            <TbLock className="text-xl" />
             Secure Site
           </div>
-          <div className=" flex justify-end  border-blue-800 text-center text-sm text-gray-400 py-4">
+          <div className="gap-1 flex justify-center items-center  border-blue-800 text-center text-sm text-gray-400 py-4">
+            <BsPatchCheck className="text-xl" />
             Verified Non profit
           </div>
         </div>
